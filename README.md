@@ -15,7 +15,8 @@ https://github.com/fatihg61/the-client-case/
 
 ## Kenmerken
 Pagina is volledig responsive van mobile tot en met desktop. Voor de integratie van maps voor de POI heb ik geen Api gebruikt maar in plaats daar van een oude html embed techniek van google die makkelijker is in gebruiken en voor in mijn geval wat logischer werkt.
-     <iframe src="https://www.google.com/maps/d/embed?mid=1gqmyNn7os6ZzXyRZrCr-Cp2dyEiJAw8&ehbc=2E312F" width="100%" height="540"></iframe>
+    
+    <iframe src="https://www.google.com/maps/d/embed?mid=1gqmyNn7os6ZzXyRZrCr-Cp2dyEiJAw8&ehbc=2E312F" width="100%" height="540"></iframe>
      
 
 ## Bronnen
