@@ -1,7 +1,5 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+The client case - Coding the Curbs
 
 ## Inhoudsopgave
 
@@ -11,16 +9,20 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Als user story heb ik de opdracht om voor de eindgebruiker een pagina te creeren waar in gezien kan worden waar allemaal een smart zone is zodat de persoon daar kan parkeren of laden/lossen.
+![image](https://user-images.githubusercontent.com/112856020/195798033-6928eb9b-5b4d-4147-a2b4-c7dad40eb76a.png)
+https://github.com/fatihg61/the-client-case/
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-
-
+Pagina is volledig responsive van mobile tot en met desktop. Voor de integratie van maps voor de POI heb ik geen Api gebruikt maar in plaats daar van een oude html embed techniek van google die makkelijker is in gebruiken en voor in mijn geval wat logischer werkt.
+     <iframe src="https://www.google.com/maps/d/embed?mid=1gqmyNn7os6ZzXyRZrCr-Cp2dyEiJAw8&ehbc=2E312F" width="100%" height="540"></iframe>
+     
 
 ## Bronnen
+FDND-Tasks
+w3schools
+Codepen
+Google Dev
 
 ## Licentie
 
