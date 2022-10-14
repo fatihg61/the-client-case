@@ -21,8 +21,11 @@ Pagina is volledig responsive van mobile tot en met desktop. Voor de integratie 
 
 ## Bronnen
 FDND-Tasks
+
 w3schools
+
 Codepen
+
 Google Dev
 
 ## Licentie
