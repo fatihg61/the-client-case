@@ -141,8 +141,16 @@ h1 {
  h2 { 
   color: #edf0f1; 
   font-family: "Montserrat", sans-serif;
+  font-size: 20px;
   text-align: center;
   background-color: #545aa1;
+ }
+
+ h3 { 
+  color: #000000; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
  }
 
 .footer {
