@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
 
+:root {
+  --purplectc: #545aa1;
+  --white: #ffffff;
+  --menublue: #0050C2;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 10%;
-  background-color: #545aa1
+  background-color: var(--purplectc);
 }
 
 .logo {
@@ -23,7 +29,7 @@ header {
 .overlay__content a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #FFFFFF;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -41,12 +47,12 @@ header {
 }
 
 .nav__links li a:hover {
-  color: #0050C2;
+  color: var(--menublue);
 }
 
 .cta {
   padding: 9px 25px;
-  background-color: #0050C2;
+  background-color: var(--menublue);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -54,7 +60,7 @@ header {
 }
 
 .cta:hover {
-  background-color: #0050C2;
+  background-color: var(--menublue);
 }
 
 /* Mobile Nav */
@@ -96,14 +102,14 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #0050C2;
+  color: var(--menublue);
 }
 .overlay .close {
   position: absolute;
   top: 20px;
   right: 45px;
   font-size: 60px;
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 @media screen and (max-height: 450px) {
@@ -128,22 +134,22 @@ header {
 }
 
 h1 { 
-  color: #edf0f1; 
+  color: var(--white); 
   font-family: "Montserrat", sans-serif;
   font-size: 40px; 
   font-weight: bold; 
   letter-spacing: -1px; 
   line-height: 1; 
   text-align: center;
-  background-color: #545aa1;
+  background-color: var(--purplectc);
  }
  
  h2 { 
-  color: #edf0f1; 
+  color: var(--white);
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   text-align: center;
-  background-color: #545aa1;
+  background-color: var(--purplectc);
  }
 
  h3 { 
@@ -154,7 +160,7 @@ h1 {
  }
 
 .footer {
-  color: #edf0f1; 
+  color: var(--white);
   font-family: "Montserrat", sans-serif;
   position: absolute;
   right: 0;
@@ -162,5 +168,5 @@ h1 {
   left: 0;
   text-align: center;
   padding: 1rem;
-  background-color: #545aa1
+  background-color: var(--purplectc);
 }
